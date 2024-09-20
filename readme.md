@@ -55,7 +55,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 | ![Carlos Vítor](https://github.com/carlosvfb.png?size=100) | ![Arthur Ferreira](https://github.com/ferreraks.png?size=100) | ![Pablo Arruda](https://github.com/.png?size=100) | ![Brian Muniz](https://github.com/BrianMunizSilveira.png?size=100) |
 |:-------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------------------------------------:|
-| [Carlos Vítor](https://github.com/carlosvfb)               | [Arthur Ferreira](https://github.com/beatriz)               | [Pablo Arruda](https://github.com/andre)                 | [Brian Muniz](https://github.com/maria)                 |
+| [Carlos Vítor](https://github.com/carlosvfb)               | [Arthur Ferreira](https://github.com/ferreraks)               | [Pablo Arruda](https://github.com/)                 | [Brian Muniz](https://github.com/BrianMunizSilveira)                 |
 
 
 
