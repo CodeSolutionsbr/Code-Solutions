@@ -4,100 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="CodeSolutions">
-    <meta name="description" content="Transformando ideias em realidade digital com inovação e excelência">
-    <meta name="keywords" content="CodeSolutions, Programação, Desenvolvimento Web">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <meta name="copyright" content="CodeSolutions">
-    <title>CodeCraft Solutions - Serviços de Programação Profissional</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/variables.css">
-    <link rel="stylesheet" href="./src/css/syle.css">
-    <link rel="stylesheet" href="./src/css/animations.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/login/login.css">
     <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <h1>Code Solutions</h1>
-        <p>Transformando ideias em realidade digital com inovação e excelência</p>
-    </header>
-    <main>
-        <section id="about">
-            <h2>Sobre Nós</h2>
-            <p>A Code Solutions é uma empresa líder em desenvolvimento de software, oferecendo soluções inovadoras
-                e personalizadas para empresas de todos os tamanhos. Nossa equipe de especialistas altamente
-                qualificados está comprometida em entregar excelência em cada projeto, utilizando as mais recentes
-                tecnologias e melhores práticas do mercado.</p>
-        </section>
-        <section id="team">
-            <h2>Nossa Equipe</h2>
-            <div class="team">
-                <div class="member">
-                    <img src="./src/img/arthur-ferreira.webp" alt="Bruno Santos">
-                    <h3>Arthur Ferreira</h3>
-                    <p>Desenvolvedor em Front-end</p>
-                </div>
-                <div class="member">
-                    <img src="./img/pexels-sridharrajini-13703277.jpg" alt="Bruno Santos">
-                    <h3>Arthur Ferreira</h3>
-                    <p>Desenvolvedor em Front-end</p>
-                </div>
-                <div class="member">
-                    <img src="./img/pexels-luiz-rogerio-55235061-13823717.jpg" alt="Carla Oliveira">
-                    <h3>Pablo Arruda</h3>
-                    <p>--------------</p>
-                </div>
-                <div class="member">
-                    <img src="./img/pexels-samuel-portillo-381016927-17221354.jpg" alt="Daniel Lima">
-                    <h3>Brian Muniz</h3>
-                    <p>Desenvolvedor Front-end.</p>
-                </div>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Senha" required>
+                    <button type="submit" href="./pagecode.html">Entrar</button>
+                </form>
+                <p>Não tem uma conta? <a href="#" id="showRegister">Registre-se</a></p>
             </div>
-        </section>
-        <section id="services">
-            <h2>Nossos Serviços</h2>
-            <div class="services-grid">
-                <div class="service-item">
-                    <h3>Desenvolvimento Web</h3>
-                    <p>Criamos sites responsivos e aplicações web de alta performance, garantindo uma experiência
-                        excepcional para seus usuários em qualquer dispositivo.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Aplicativos Móveis</h3>
-                    <p>Desenvolvemos apps nativos e híbridos para iOS e Android, proporcionando soluções móveis
-                        inovadoras e intuitivas para o seu negócio.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Sistemas Empresariais</h3>
-                    <p>Oferecemos soluções personalizadas para otimizar seus processos internos, aumentando a eficiência
-                        e produtividade da sua empresa.</p>
-                </div>
-                <div class="service-item">
-                    <h3>-----------</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci at sequi fugiat, maxime id nobis aliquid eligendi! Delectus, expedita eligendi, corrupti quod incidunt, sint iste quas illum dignissimos ratione quidem.</p>
-                </div>
-                <div class="service-item">
-                    <h3>-----------</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, praesentium obcaecati voluptatum voluptates id culpa doloribus mollitia, nesciunt explicabo voluptas earum, voluptatibus amet dolore maxime libero saepe. Esse, exercitationem. Maiores.</p>
-                </div>
-                <div class="service-item">
-                    <h3>-----------</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, praesentium obcaecati voluptatum voluptates id culpa doloribus mollitia, nesciunt explicabo voluptas earum, voluptatibus amet dolore maxime libero saepe. Esse, exercitationem. Maiores.</p>
-                </div>
+            <div class="form-box register">
+                <h2>Registro</h2>
+                <form id="registerForm">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="password" placeholder="Confirmar Senha" required>
+                    <button type="submit">Registrar</button>
+                    <div class="social-login">
+                        <button type="button" class="social-btn">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                            <span style="margin-left: 5px;">Google</span>
+                        </button>
+                        <button type="button" class="social-btn">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            <span style="margin-left: 5px;">GitHub</span>
+                        </button>
+                    </div>
+                </form>
+                <p>Já tem uma conta? <a href="" id="showLogin">Faça login</a></p>
             </div>
-            <button class="cta-button" onclick="showMessage()">Agende uma Consulta Gratuita</button>
-        </section>
-        <footer>
-            <p>&copy; 2024 Code Solutions. Todos os direitos reservados.</p>
-        </footer>
-    </main>
-    <button id="back-to-top" title="Voltar ao topo">↑</button>
-    <button id="dark-mode-toggle">🌓</button>
-    <script src="./src/js/script.js"></script>
+        </div>
+    </div>
+    <script src="./src/login/login.js"></script>
 </body>
 
 </html>

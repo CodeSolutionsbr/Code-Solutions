@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.getElementById('loginForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Impede o envio padrão do formulário
-    window.location.href = "../../"; // Ta funcionando não mexe 
+    window.location.href = "./pagecode.html"; // Ta funcionando não mexe 
 });
 
 // Efeito de hover nos botões sociais
