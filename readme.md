@@ -42,5 +42,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 📞 Entre em contato
 Pronto para criar sua próxima experiência digital? Entre em contato conosco e vamos transformar suas ideias em realidade!
+
 **Email:** codesolutionsbr@gmail.com  
 **Website:** [Nosso Website](https://codesolutionsbr.github.io/Code-Solutions/)
